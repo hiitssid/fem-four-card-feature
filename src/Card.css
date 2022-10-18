@@ -1,0 +1,32 @@
+.card{
+    width: 310px;
+    height: 220px;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+    box-shadow: 1px 1px 10px 1px var(--grey)
+}
+.card-items{
+    margin: 1.5rem 1.8rem;
+}
+.card-image{
+    display: block;
+    margin-left: auto;
+    margin-top: 2rem;
+    width: 22%;
+}
+.card-title{
+    margin-bottom: 0.5rem;
+    color: var(--dark-grey);
+}
+.card-description{
+    font-size: 0.8rem;
+    color: var(--dark-grey);
+    line-height: 1.3rem;
+    color: var(--grey);
+}
+@media only screen and (min-width: 1024px) {
+    .card{
+        width:350px;
+        height:250px;
+    }
+}
